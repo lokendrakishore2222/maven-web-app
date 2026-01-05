@@ -6,6 +6,6 @@ node {
     }
 
     stage('Build') {
-        sh '${avenHome}/bin/mvn clean package'
+        sh '${mavenHome}/bin/mvn clean package'
     }
 }
